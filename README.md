@@ -20,10 +20,10 @@ This project features a **normalized and relationally sound database system** de
 ### 🗺️ Schema Snapshots
 
 ### ER Diagram  
-![ER Diagram](diagrams/er-diagram.png)
+![ER Diagram](Diagrams/er-diagram.png)
 
 ### Relational Mapping  
-![Relational Mapping](diagrams/relational-mapping.png)
+![Relational Mapping](Diagrams/relational-mapping.png)
 
 
 

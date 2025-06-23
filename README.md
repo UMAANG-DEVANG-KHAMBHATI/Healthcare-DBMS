@@ -65,7 +65,7 @@ This project features a **normalized and relationally sound database system** de
 
 ---
 
-## 👥 Contributors
+## Contributors
 <table>
   <tr>
     <td align="center">

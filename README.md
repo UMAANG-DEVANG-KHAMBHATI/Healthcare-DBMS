@@ -2,28 +2,29 @@
 
 This project features a **normalized and relationally sound database system** designed for **NOVA**, a fictional pharmaceutical retail chain. The goal was to model, implement, and manage the core business operations of pharmacies, drug manufacturers, patients, doctors, and prescriptions using **Oracle SQL and PL/SQL**.
 
-### 🔧 Design Highlights
+### Design Highlights
 
-- ✅ Designed in **Third Normal Form (3NF)** to eliminate redundancy and ensure referential integrity.
-- 🔗 Built with **11 interconnected relations** capturing key business entities and interactions:
+- Designed in **Third Normal Form (3NF)** to eliminate redundancy and ensure referential integrity.
+- Built with **11 interconnected relations** capturing key business entities and interactions:
   - `PHARMACY`, `DOCTOR`, `PATIENT`, `DRUG`, `PHARMACEUTICAL_COMPANY`
   - `PRESCRIPTION`, `PRESC_DETAILS`, `SELLS`, `CONTRACTS`, `TREATED_BY`
-- ⚙️ Optimized over **20+ stored operations** using:
+- Optimized over **20+ stored operations** using:
   - `PL/SQL Procedures`
   - `Functions`
   - `Cursors`
   - `Triggers`
-- 📊 Designed to scale and query over **500+ rows** of realistic sample data (dummy dataset provided).
+- Designed to scale and query over **500+ rows** of realistic sample data (dummy dataset provided).
 
 ---
 
 ### 🗺️ Schema Snapshots
 
 ### ER Diagram  
-![ER Diagram](ER%20Diagram%20%26%20Mapping/er-diagram.png)
+![ER Diagram](diagrams/er-diagram.png)
 
 ### Relational Mapping  
-![Relational Mapping](ER%20Diagram%20%26%20Mapping/relational-mapping.png)
+![Relational Mapping](diagrams/relational-mapping.png)
+
 
 
 ---
@@ -45,6 +46,7 @@ This project features a **normalized and relationally sound database system** de
 
 ---
 
-> 💡 *The system was designed with command-line demonstration in mind and does not rely on a graphical interface, ensuring full SQL/PLSQL interaction fidelity.*
+> *The system was designed with command-line demonstration in mind and does not rely on a graphical interface, ensuring full SQL/PLSQL interaction fidelity.*
 
+---
 
